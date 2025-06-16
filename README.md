@@ -1,140 +1,94 @@
-# Full Stack Developer Portfolio Template
+# Crafted by Jinad — Full Stack Engineer Portfolio 🧑🏽‍💻
 
-[Demo](https://www.devportfoliotemplates.com/portfolio-templates/full-stack-developer)
+Welcome to my digital workspace — a clean, responsive, and modern portfolio built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/), showcasing my passion for crafting seamless digital experiences.
 
-## Getting Started
+---
 
-You have two options to get started with this template:
+## 👋🏽 About Me
 
-### Option 1: Using Git Sparse Checkout
+**Name:** Tope Jinad  
+**Role:** Full Stack Engineer  
 
-If you want to clone only this specific template:
+I’m a fullstack developer with a strong passion for building software and websites of any kind — whether working solo, collaborating with a team, starting from scratch, or improving existing systems.  
+If it needs code, I’m in.
+
+### 🚀 What I Bring to the Table
+
+- Pixel-perfect, responsive websites for all screen sizes
+- Clean UI + smooth UX for real-world users
+- Suggestions and input that help clients achieve their goals
+- Time-efficient delivery and reliable results
+
+---
+
+## 🛠️ Tech Stack
+
+Here are some of the key tools I work with regularly:
+
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Node.js, Express
+- **Databases:** MongoDB, MySQL
+- **ORMs & Tools:** Prisma, Supabase
+- **Frameworks:** Laravel  
+*(Note: I’m open to more stacks based on project needs.)*
+
+---
+
+## 📂 Featured Projects
+
+### 1. [CyberAware](https://cyber-awareness-app.vercel.app)
+
+An interactive platform built to educate users about phishing, malware, and online safety with simulations, quizzes, and certifications.  
+**Tech:** Next.js, Node.js, Supabase, PostgreSQL, Tailwind CSS  
+[GitHub ↗︎](https://github.com/just-jinad/Cyber-Awareness-app)
+
+---
+
+### 2. [Davejosh Global Resources LTD](https://davejosh-global-resources-ltd.vercel.app)
+
+An e-commerce site for laboratory products, built for a Nigerian company. Features intuitive navigation and a scalable layout.  
+**Tech:** Next.js, Tailwind CSS, MongoDB, framer-motion  
+[GitHub ↗︎](https://github.com/just-jinad/Davejosh-global-resources-LTD)
+
+---
+
+### 3. [Nambu Shalom Rural Ministry (NSRM)](https://nsrm.vercel.app)
+
+A dynamic site for a faith-based NGO supporting rural communities. Includes a donation system and role-based admin access.  
+**Tech:** Next.js, MongoDB, Tailwind, TypeScript, lucide-react  
+[GitHub ↗︎](https://github.com/just-jinad/NSRM) (Private)
+
+---
+
+## 🌐 Languages
+
+- English (default)
+- Hindi (optional toggle included)
+
+---
+
+## 📬 Contact Me
+
+- 📧 **Email:** jinadtope66@gmail.com  
+- 💼 [LinkedIn](https://linkedin.com/in/jinadtope)  
+- 💻 [GitHub](https://github.com/just-jinad)
+
+---
+
+## 🌓 Features
+
+- Fully responsive design
+- Dark/Light mode toggle
+- Language switcher
+- Clean component-based structure
+- Ready for deployment on Vercel
+
+---
+
+## 📦 Run It Locally
 
 ```bash
-git clone --no-checkout https://github.com/devportfoliotemplates/devportfoliotemplates.git
-cd devportfoliotemplates
-git sparse-checkout init --cone
-git sparse-checkout set full-stack-developer-portfolio-template
-git checkout
-```
-
-### Option 2: Direct Download
-
-You can download this template as a ZIP file:
-
-1. Visit [download-directory.github.io](https://download-directory.github.io/)
-2. Paste the URL of this portfolio folder: `https://github.com/devportfoliotemplates/devportfoliotemplates/tree/main/full-stack-developer-portfolio-template`
-3. Download and extract the ZIP file
-
-### Running the Template
-
-Once you have the template:
-
-1. Install dependencies:
-
-```bash
+git clone https://github.com/just-jinad/your-repo-name
+cd your-repo-name
 npm install
-# or
-yarn install
-# or
-pnpm install
-```
-
-2. Run the development server:
-
-```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
-
-## Customization
-
-### Personal Information
-
-1. Update metadata in `app/layout.tsx`:
-
-   - Site title
-   - Description
-   - Open Graph metadata
-   - Favicon
-
-2. Modify content in `app/page.tsx`:
-
-   - Hero section
-   - About section
-   - Projects
-   - Contact information
-
-3. Replace assets:
-   - Replace images in the `public` directory
-   - Update social media icons
-   - Modify logo if needed
-
-### Styling
-
-1. Colors and Theme:
-
-   - Customize colors in `tailwind.config.js`
-   - Modify theme variables in `app/globals.css`
-
-2. Typography:
-
-   - Update font families in `tailwind.config.js`
-   - Modify text sizes and weights
-
-3. Layout:
-   - Adjust spacing and padding in component files
-   - Modify responsive breakpoints in `tailwind.config.js`
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Build Errors**
-
-   - Ensure all dependencies are installed
-   - Clear `.next` folder and node_modules
-   - Run `npm install` again
-
-2. **Styling Issues**
-
-   - Run `npm run build` to ensure TailwindCSS classes are generated
-   - Check for conflicting styles in `globals.css`
-
-3. **Image Loading**
-   - Verify images are in the correct format (PNG, JPG, WebP)
-   - Check image paths are correct
-   - Ensure images are in the `public` directory
-
-## Deployment
-
-Follow these steps to deploy your portfolio for free using GitHub and Vercel:
-
-1. Create a new GitHub repository
-
-2. Push your portfolio to GitHub
-
-3. Deploy with Vercel:
-   - Go to [Vercel](https://vercel.com)
-   - Sign up or log in with GitHub
-   - Click "New Project"
-   - Import your GitHub repository
-   - Vercel will automatically detect Next.js
-   - Click "Deploy"
-
-Your portfolio will be live in minutes with a free Vercel domain (e.g., `your-repo.vercel.app`). You can later add a custom domain in your Vercel project settings.
-
-## Support
-
-If you find these templates helpful, please consider:
-
-- Starring the repository ⭐
-- Sharing with other developers
-- [Buying me a coffee](https://www.buymeacoffee.com/andreiancu) ☕
-
-For issues and feature requests, please [create an issue](https://github.com/devportfoliotemplates/devportfoliotemplates/issues).
