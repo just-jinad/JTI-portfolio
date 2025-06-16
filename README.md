@@ -75,20 +75,3 @@ A dynamic site for a faith-based NGO supporting rural communities. Includes a do
 
 ---
 
-## 🌓 Features
-
-- Fully responsive design
-- Dark/Light mode toggle
-- Language switcher
-- Clean component-based structure
-- Ready for deployment on Vercel
-
----
-
-## 📦 Run It Locally
-
-```bash
-git clone https://github.com/just-jinad/your-repo-name
-cd your-repo-name
-npm install
-npm run dev
