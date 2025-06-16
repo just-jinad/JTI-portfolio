@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 
 export default function HeroSection() {
-	const [selectedStack, setSelectedStack] = useState<'frontend' | 'backend' | 'devops' | null>(null);
+	const [selectedStack, setSelectedStack] = useState<'frontend' | 'backend' | null>(null);
 
 	return (
 		<section className="min-h-screen relative overflow-hidden py-24 md:py-0">
@@ -18,21 +18,22 @@ export default function HeroSection() {
 						<h1 className="text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-teal-500">
 							Tope Jinad
 						</h1>
-						<h2 className="text-2xl md:text-4xl font-bold text-white">Full Stack Developer</h2>
+						<h2 className="text-2xl md:text-4xl font-bold text-white">Full Stack Engineer</h2>
 						<p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-							I craft end-to-end solutions, building scalable applications and leading development teams.
+							I'm a fullstack developer passionate about building modern software whether solo, with a team, or scaling existing systems.
 						</p>
 						<p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto">
-							Previously Senior Full Stack Developer at <span className="text-blue-400">Strip</span> and Tech Lead at{' '}
-							<span className="text-purple-400">Vercel</span>
+							I focus on responsive design, smooth functionality, and user-first experiences delivering reliable results every time.
 						</p>
 					</div>
 					<div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-6 md:mb-8">
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">TypeScript</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">React & Next.js</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">Next.js</span>
 						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/10 rounded-full text-teal-400 text-xs md:text-sm">Node.js</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">Python</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">AWS</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">MongoDB</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-indigo-500/10 rounded-full text-indigo-400 text-xs md:text-sm">MySQL</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-pink-500/10 rounded-full text-pink-400 text-xs md:text-sm">Tailwind CSS</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-yellow-500/10 rounded-full text-yellow-400 text-xs md:text-sm">Prisma</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-red-500/10 rounded-full text-red-400 text-xs md:text-sm">Laravel</span>
 					</div>
 				</motion.div>
 
@@ -44,7 +45,7 @@ export default function HeroSection() {
 						transition={{ delay: 0.3 }}
 						className="bg-gray-900/50 backdrop-blur-sm rounded-lg border border-gray-800 p-4 md:p-8"
 					>
-						<div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
 							{/* Frontend Layer */}
 							<div
 								className={`p-4 md:p-6 rounded-lg transition-colors border-2 ${
@@ -61,11 +62,11 @@ export default function HeroSection() {
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-										Performance Optimization
+										Responsive & Accessible Interfaces
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-										Responsive & Interactive UIs
+										Component-driven UIs with Tailwind
 									</li>
 								</ul>
 							</div>
@@ -82,40 +83,15 @@ export default function HeroSection() {
 								<ul className="space-y-1.5 md:space-y-2 text-xs md:text-sm text-gray-400">
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
-										API Design & Development
+										API Development & RESTful Design
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
-										Database Architecture
+										Relational & NoSQL DBs: MySQL, MongoDB
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
-										Real-time Systems
-									</li>
-								</ul>
-							</div>
-
-							{/* DevOps Layer */}
-							<div
-								className={`p-4 md:p-6 rounded-lg transition-colors border-2 ${
-									selectedStack === 'devops' ? 'bg-teal-500/20 border-teal-500/50' : 'bg-gray-800/50 hover:bg-gray-800/80 border-transparent'
-								}`}
-								onMouseEnter={() => setSelectedStack('devops')}
-								onMouseLeave={() => setSelectedStack(null)}
-							>
-								<h3 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-teal-400">DevOps & Cloud</h3>
-								<ul className="space-y-1.5 md:space-y-2 text-xs md:text-sm text-gray-400">
-									<li className="flex items-center gap-2">
-										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										AWS Infrastructure
-									</li>
-									<li className="flex items-center gap-2">
-										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										CI/CD Pipelines
-									</li>
-									<li className="flex items-center gap-2">
-										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										Scalable Architecture
+										Authentication & Role-based Access
 									</li>
 								</ul>
 							</div>

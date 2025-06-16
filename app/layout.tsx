@@ -27,16 +27,13 @@ export const metadata: Metadata = {
 		'TypeScript',
 		'Database Design',
 		'API Development',
-		'Cloud Solutions',
-		'DevOps',
-		'System Architecture',
 		'Web Development',
-		'[Your Name]',
+		'Tope Jinad',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: 'Tope Jinad' }],
+	creator: 'Tope Jinad',
 	openGraph: {
-		title: '[Your Name] - Full-Stack Developer Portfolio',
+		title: 'Tope Jinad - Full-Stack Developer Portfolio',
 		description:
 			'Passionate full-stack developer creating complete web solutions. Explore my projects and technical expertise across the entire development stack.',
 		url: 'https://your-domain.com',
@@ -46,7 +43,7 @@ export const metadata: Metadata = {
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: '[Your Name] - Full-Stack Developer Portfolio',
+				alt: 'Tope Jinad - Full-Stack Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -54,10 +51,10 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Full-Stack Developer',
+		title: 'Tope Jinad - Full-Stack Developer',
 		description:
 			'Passionate full-stack developer creating complete web solutions. Explore my projects and technical expertise across the entire development stack.',
-		creator: '@yourusername',
+		creator: '@just-jinad',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
