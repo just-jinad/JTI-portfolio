@@ -20,7 +20,7 @@ export default function HeroSection() {
 						</h1>
 						<h2 className="text-2xl md:text-4xl font-bold text-white">Full Stack Engineer</h2>
 						<p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-							I'm a fullstack developer passionate about building modern software whether solo, with a team, or scaling existing systems.
+							I&apos;m a fullstack developer passionate about building modern software whether solo, with a team, or scaling existing systems.
 						</p>
 						<p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto">
 							I focus on responsive design, smooth functionality, and user-first experiences delivering reliable results every time.

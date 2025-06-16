@@ -7,9 +7,9 @@ export default function ContactSection() {
 		<section className="py-20 px-4">
 			<div className="max-w-4xl mx-auto text-center">
 				<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="space-y-8">
-					<h2 className="text-3xl font-bold">Let's Build Something Amazing</h2>
+					<h2 className="text-3xl font-bold">Let&apos;s Build Something Amazing</h2>
 					<p className="text-gray-400 max-w-2xl mx-auto">
-						Need a full-stack developer to bring your vision to life? Let's discuss your project and create scalable, modern solutions.
+						Need a full-stack developer to bring your vision to life? Let&apos;s discuss your project and create scalable, modern solutions.
 					</p>
 
 					{/* Location */}
